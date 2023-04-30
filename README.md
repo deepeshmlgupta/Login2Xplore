@@ -1,15 +1,16 @@
+#Login2Xplore
+
 
 # Student Enrollment Form
 
-It is a student registration form that stores the user's data in JSONPowerDB. It supports REST APIs and serverless technology. Students can be added, updated based on their roll number. In this form, the roll number is automatically checked and by the help of API, the data entered into other input fields sothat the user can update accordingly. The application uses AJAX requests for smooth and fast interaction. All kinds of data can be stored, such as numbers, strings, dates, etc.
-
+It is a student registration form that saves the user's information in JSONPowerDB. Both serverless technology and REST APIs are supported. A student's roll number can be used to add or update them. The roll number is automatically verified on this form, and with the use of an API, the data submitted into other input fields is also verified so that the user can change as necessary. AJAX requests are used by the programme to enable quick and seamless interaction. Data of every kind, including numbers, strings, dates, and more, can be saved.
 
 ## Benefits of using JsonPowerDB
-- Can store structured / semi-structured and unstructured data along with other types of files and big-data.
-- Dynamic relational constraints while using CRUD operations. i.e. Relational data can be managed without pre-defining PK, FK, UK, databases, tables etc.
-- Free from technology constraints - Low-Code and easy to use from any technology via HTTP Rest API.
-- Minimum learning curves, builds faster, cuts time to market, reduces the development cost.
-- Helps developers in managing their databases using various tools and techniques.
+- Structured, semi-structured, and unstructured data, as well as various file formats and huge data, can be stored.
+- CRUD operations with dynamic relational restrictions. Relational data management is possible without PK, FK, UK, pre-defining databases, tables, etc.
+- Without restrictions imposed by technology - HTTP Rest API is low-code and simple to use from any technology.
+-  Reduces development costs, builds more quickly, and has shorter time to market curves.
+-  uses a variety of tools and strategies to assist developers in maintaining their databases.
 
 
 
@@ -17,7 +18,7 @@ It is a student registration form that stores the user's data in JSONPowerDB. It
 
 ## JsonPowerDB
 
-### Version: 2.0
+### Version: 1.0
 
 #### Execute API
 
@@ -65,6 +66,10 @@ function createPUTRequest(connToken, jsonObj, dbName, relName) {
 
 ## Tech Stack
 
-**Client:** HTML,CSS,Javascript
+**Client:** 
+>HTML
+>CSS
+>Javascript
 
-**Server:** JsonPowerDB
+**Server:** 
+>JsonPowerDB
